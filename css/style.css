@@ -1,0 +1,128 @@
+/* Geral */
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+	background: #a4c3b2;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 1em;
+}
+
+#container{
+	width: 920px;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* TOPO */
+
+header{
+	text-align: center;
+	background: #eb5e28;
+	padding: 15px;
+	padding-top: 15px;
+}
+
+/* MAIN */
+main{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+main div#conteudo-principal{
+	width: 660px;
+
+}
+main div#conteudo-lateral{
+	width: 240px;
+}
+
+.postagens{
+	background-color: white;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+.post-lateral{
+	background: white;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+/* **** rodapé **** */
+
+footer {
+	background: #6b9080;
+	text-align: center;
+	padding: 15px;
+}
+
+
+
+
+/* links e textos */
+/* TOPO */
+#LOGO{
+	padding: 20px;
+}
+span#red{
+    color: #d62828;
+}
+span#branco{
+    color: white;
+}
+header h1{
+	color: #343a40;
+	font-size: 2.5em;
+}
+
+header a:link, header a:visited {
+	color: #FFF;
+	padding: 8px 12px;
+}
+
+header a:hover {
+	color: #eb5e28;
+	background: #FFF;
+	text-decoration: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color: #eb5e28;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+main div.postagens h2{
+	color: #eb5e28;
+}
+
+time{
+	font-size: 0.8em;
+	border-bottom: 1px solid #f4f4f4;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+h3{
+	color: white;
+	background: #6b9080;
+	padding: 5px;
+}
+
+.texto-lateral{
+	font-size: 0.8em;
+	padding: 5px;
+	border-bottom: 1px dotted #CCC;
+}
